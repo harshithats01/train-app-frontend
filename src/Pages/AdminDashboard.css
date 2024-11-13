@@ -1,0 +1,66 @@
+/* Increase font size for main headers and sub-headers */
+.dashboard-header {
+    color: #3498db;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.5rem; /* Bigger font for main title */
+}
+
+h2 {
+    font-size: 2rem; /* Bigger font for section headers */
+    color: #2c3e50;
+}
+
+/* Style for messages */
+.text-danger {
+    font-size: 1.25rem;
+    color: #e74c3c;
+}
+
+/* Increase font size in the table */
+.table-custom {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 1.25rem; /* Increase table font size */
+}
+
+.table-custom th {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 1.5rem; /* Bigger font for table headers */
+}
+
+.table-custom tbody tr:nth-child(odd) {
+    background-color: #e9f5e9;
+}
+
+/* Style the delete button */
+.btn-danger {
+    background-color: #e74c3c;
+    border: none;
+    font-size: 1.25rem; /* Bigger font for buttons */
+}
+
+.btn-danger:hover {
+    background-color: #c0392b;
+}
+
+/* Larger font for navigation links */
+.navbar-dark .navbar-nav .nav-item .btn-link {
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 1.5rem; /* Larger font for nav links */
+}
+
+/* Additional spacing for buttons */
+.btn-link {
+    padding: 10px;
+}
+
+/* Larger font for message and logout button */
+.message {
+    font-size: 1.25rem;
+    color: #e74c3c;
+}
